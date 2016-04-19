@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
-// player's weapons
-public var bullet : GameObject; 
+// speed
+public var speed : float = 5;
 
 // how often to randomize whether to reverse the direction
 public var jumbleTime : float = 5;
@@ -10,6 +10,9 @@ public var jumbleTime : float = 5;
 var reverseX : float = 1;
 var reverseY : float = 1;
 
+// player's weapons
+public var bullet : GameObject; 
+
 function Start () { 
 	// every jumbleTime seconds, determine whether or not to reverse X or Y input
 	InvokeRepeating("whetherReverse", jumbleTime, jumbleTime);
@@ -17,8 +20,8 @@ function Start () {
 
 function Update () {
 // Move the player horizontally and vertically
-	GetComponent.<Rigidbody2D>().velocity.x = Input.GetAxis("Horizontal") * 10 * reverseX; 
-	GetComponent.<Rigidbody2D>().velocity.y = Input.GetAxis("Vertical") * 10 * reverseY; 
+	GetComponent.<Rigidbody2D>().velocity.x = Input.GetAxis("Horizontal") * speed * reverseX; 
+	GetComponent.<Rigidbody2D>().velocity.y = Input.GetAxis("Vertical") * speed * reverseY; 
 
 	// When the spacebar is pressed
 	if (Input.GetKeyDown("space")) { // Create a new bullet at “transform.position” which is the current position of the ship
