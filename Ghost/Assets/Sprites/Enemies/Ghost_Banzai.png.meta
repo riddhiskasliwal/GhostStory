@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 482d58518f7bb1d4c98d922b6591cc15
+timeCreated: 1461006469
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost_Banzai_0
+    21300002: Ghost_Banzai_1
+    21300004: Ghost_Banzai_2
+    21300006: Ghost_Banzai_3
+    21300008: Ghost_Banzai_4
+    21300010: Ghost_Banzai_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ghost_Banzai_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 410
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 71}
+        - {x: -41.5, y: 71}
+        - {x: -41.5, y: -59}
+        - {x: -10.5, y: -71}
+        - {x: 30.5, y: -71}
+        - {x: 41.5, y: -49}
+        - {x: 41.5, y: 19}
+        - {x: 32.5, y: 28}
+    - name: Ghost_Banzai_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 416
+        width: 101
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 70.5}
+        - {x: -50.5, y: 20.5}
+        - {x: -50.5, y: -66.5}
+        - {x: -32.5, y: -70.5}
+        - {x: 50.5, y: -70.5}
+        - {x: 50.5, y: 41.5}
+        - {x: 27.5, y: 70.5}
+    - name: Ghost_Banzai_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 218
+        width: 86
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 74}
+        - {x: -43, y: 54}
+        - {x: -43, y: -48}
+        - {x: -37, y: -51}
+        - {x: -24, y: -50}
+        - {x: -12, y: -41}
+        - {x: 14, y: -74}
+        - {x: 43, y: -74}
+        - {x: 43, y: 63}
+        - {x: 26, y: 74}
+    - name: Ghost_Banzai_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 220
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 71}
+        - {x: -49, y: 39}
+        - {x: -49, y: -10}
+        - {x: 20, y: -71}
+        - {x: 49, y: -71}
+        - {x: 49, y: 66}
+        - {x: 36, y: 71}
+    - name: Ghost_Banzai_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 94
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 72}
+        - {x: -47, y: 33}
+        - {x: -47, y: -45}
+        - {x: 12, y: -72}
+        - {x: 47, y: -72}
+        - {x: 47, y: 44}
+        - {x: 25, y: 72}
+    - name: Ghost_Banzai_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 24
+        width: 91
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 73}
+        - {x: -45.5, y: 72}
+        - {x: -45.5, y: 1}
+        - {x: 14.5, y: -73}
+        - {x: 45.5, y: -73}
+        - {x: 45.5, y: 73}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

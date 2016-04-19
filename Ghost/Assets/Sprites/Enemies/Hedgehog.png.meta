@@ -1,0 +1,887 @@
+fileFormatVersion: 2
+guid: 612e52542f6d7e24b80187e9a06b4d56
+timeCreated: 1460646035
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hedgehog_0
+    21300002: Hedgehog_1
+    21300004: Hedgehog_2
+    21300006: Hedgehog_3
+    21300008: Hedgehog_4
+    21300010: Hedgehog_5
+    21300012: Hedgehog_6
+    21300014: Hedgehog_7
+    21300016: Hedgehog_8
+    21300018: Hedgehog_9
+    21300020: Hedgehog_10
+    21300022: Hedgehog_11
+    21300024: Hedgehog_12
+    21300026: Hedgehog_13
+    21300028: Hedgehog_14
+    21300030: Hedgehog_15
+    21300032: Hedgehog_16
+    21300034: Hedgehog_17
+    21300036: Hedgehog_18
+    21300038: Hedgehog_19
+    21300040: Hedgehog_20
+    21300042: Hedgehog_21
+    21300044: Hedgehog_22
+    21300046: Hedgehog_23
+    21300048: Hedgehog_24
+    21300050: Hedgehog_25
+    21300052: Hedgehog_26
+    21300054: Hedgehog_27
+    21300056: Hedgehog_28
+    21300058: Hedgehog_29
+    21300060: Hedgehog_30
+    21300062: Hedgehog_31
+    21300064: Hedgehog_32
+    21300066: Hedgehog_33
+    21300068: Hedgehog_34
+    21300070: Hedgehog_35
+    21300072: Hedgehog_36
+    21300074: Hedgehog_37
+    21300076: Hedgehog_38
+    21300078: Hedgehog_39
+    21300080: Hedgehog_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hedgehog_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 512
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 21}
+        - {x: -24, y: -20}
+        - {x: -21, y: -21}
+        - {x: 19, y: -21}
+        - {x: 24, y: -13}
+        - {x: 24, y: 10}
+        - {x: 21, y: 21}
+    - name: Hedgehog_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 512
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 21}
+        - {x: -24, y: 16}
+        - {x: -24, y: -13}
+        - {x: -14, y: -21}
+        - {x: 13, y: -21}
+        - {x: 24, y: -14}
+        - {x: 24, y: 16}
+        - {x: 18, y: 21}
+    - name: Hedgehog_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 512
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 22}
+        - {x: -18, y: 22}
+        - {x: -27, y: 4}
+        - {x: -27, y: -17}
+        - {x: -26, y: -18}
+        - {x: -15, y: -22}
+        - {x: 27, y: -22}
+        - {x: 27, y: 11}
+        - {x: 24, y: 21}
+    - name: Hedgehog_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 512
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 22}
+        - {x: -27, y: 14}
+        - {x: -27, y: -22}
+        - {x: 20, y: -22}
+        - {x: 27, y: -19}
+        - {x: 27, y: 14}
+        - {x: 18, y: 22}
+    - name: Hedgehog_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 515
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -20.5}
+        - {x: -17, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 24, y: 16.5}
+        - {x: 21, y: 23.5}
+    - name: Hedgehog_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 515
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -12.5}
+        - {x: -10, y: -23.5}
+        - {x: 7, y: -23.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 20.5}
+        - {x: 20, y: 23.5}
+    - name: Hedgehog_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 512
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 22}
+        - {x: -10.5, y: 22}
+        - {x: -27.5, y: 9}
+        - {x: -27.5, y: -14}
+        - {x: -25.5, y: -16}
+        - {x: -8.5, y: -22}
+        - {x: 27.5, y: -22}
+        - {x: 27.5, y: 11}
+        - {x: 24.5, y: 21}
+    - name: Hedgehog_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 512
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 22}
+        - {x: -27.5, y: 17}
+        - {x: -27.5, y: -22}
+        - {x: 19.5, y: -22}
+        - {x: 27.5, y: -20}
+        - {x: 27.5, y: 3}
+        - {x: 26.5, y: 6}
+        - {x: 12.5, y: 22}
+    - name: Hedgehog_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 459
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -20.5}
+        - {x: -17, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 24, y: 16.5}
+        - {x: 21, y: 23.5}
+    - name: Hedgehog_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 459
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -12.5}
+        - {x: -10, y: -23.5}
+        - {x: 7, y: -23.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 20.5}
+        - {x: 20, y: 23.5}
+    - name: Hedgehog_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 32}
+        - {x: 52, y: 32}
+        - {x: 50, y: 31}
+        - {x: 45, y: 23}
+        - {x: 27, y: 32}
+        - {x: -60, y: 32}
+        - {x: -64, y: 17}
+        - {x: -64, y: -18}
+        - {x: -59, y: -32}
+        - {x: 63, y: -32}
+        - {x: 64, y: -25}
+        - {x: 64, y: 24}
+    - name: Hedgehog_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 451
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -20.5}
+        - {x: -17, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 24, y: 16.5}
+        - {x: 21, y: 23.5}
+    - name: Hedgehog_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 451
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -12.5}
+        - {x: -10, y: -23.5}
+        - {x: 7, y: -23.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 20.5}
+        - {x: 20, y: 23.5}
+    - name: Hedgehog_13
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 448
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 22.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -24.5, y: 3.5}
+        - {x: -27.5, y: -3.5}
+        - {x: -27.5, y: -15.5}
+        - {x: -12.5, y: -22.5}
+        - {x: 12.5, y: -22.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 27.5, y: 16.5}
+        - {x: 21.5, y: 22.5}
+    - name: Hedgehog_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 448
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 22.5}
+        - {x: -27.5, y: 17.5}
+        - {x: -27.5, y: -22.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 27.5, y: 9.5}
+        - {x: 12.5, y: 22.5}
+    - name: Hedgehog_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 399
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -20.5}
+        - {x: -17, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 24, y: 16.5}
+        - {x: 21, y: 23.5}
+    - name: Hedgehog_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 399
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -12.5}
+        - {x: -10, y: -23.5}
+        - {x: 7, y: -23.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 20.5}
+        - {x: 20, y: 23.5}
+    - name: Hedgehog_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 22}
+        - {x: -26.5, y: 13}
+        - {x: -26.5, y: -22}
+        - {x: 30.5, y: -22}
+        - {x: 30.5, y: 17}
+        - {x: 22.5, y: 22}
+    - name: Hedgehog_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 327
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 27}
+        - {x: -27.5, y: 20}
+        - {x: -27.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 27.5, y: -20}
+        - {x: 27.5, y: 19}
+        - {x: 19.5, y: 27}
+    - name: Hedgehog_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 327
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 27}
+        - {x: -16.5, y: 27}
+        - {x: -27.5, y: 18}
+        - {x: -27.5, y: -12}
+        - {x: -10.5, y: -27}
+        - {x: 21.5, y: -27}
+        - {x: 27.5, y: -14}
+        - {x: 27.5, y: 13}
+        - {x: 22.5, y: 26}
+    - name: Hedgehog_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 261
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 21.5}
+        - {x: 10, y: 23.5}
+        - {x: -19, y: 23.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -15.5}
+        - {x: -22, y: -22.5}
+        - {x: -20, y: -23.5}
+        - {x: 17, y: -23.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 9.5}
+    - name: Hedgehog_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 261
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 23.5}
+        - {x: -24, y: -20.5}
+        - {x: -17, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 24, y: 20.5}
+        - {x: 21, y: 23.5}
+    - name: Hedgehog_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 256
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 21}
+        - {x: 18.5, y: 22}
+        - {x: -5.5, y: 22}
+        - {x: -15.5, y: 19}
+        - {x: -26.5, y: 3}
+        - {x: -26.5, y: -21}
+        - {x: -16.5, y: -22}
+        - {x: 26.5, y: -22}
+        - {x: 26.5, y: 11}
+    - name: Hedgehog_23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 256
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: -20}
+        - {x: -25.5, y: -22}
+        - {x: 26.5, y: -22}
+        - {x: 26.5, y: 6}
+        - {x: 21.5, y: 22}
+        - {x: -13.5, y: 22}
+        - {x: -26.5, y: 12}
+    - name: Hedgehog_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 196
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 22}
+        - {x: -17.5, y: 22}
+        - {x: -26.5, y: 16}
+        - {x: -26.5, y: -22}
+        - {x: 26.5, y: -22}
+        - {x: 26.5, y: 11}
+        - {x: 23.5, y: 21}
+    - name: Hedgehog_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 196
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 22}
+        - {x: -26.5, y: 13}
+        - {x: -26.5, y: -22}
+        - {x: 26.5, y: -22}
+        - {x: 26.5, y: 14}
+        - {x: 14.5, y: 22}
+    - name: Hedgehog_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 23}
+        - {x: 17.5, y: 10}
+        - {x: 11.5, y: 29}
+        - {x: 9.5, y: 32}
+        - {x: -26.5, y: 32}
+        - {x: -31.5, y: 15}
+        - {x: -31.5, y: -8}
+        - {x: -29.5, y: -23}
+        - {x: -26.5, y: -32}
+        - {x: 31.5, y: -32}
+        - {x: 31.5, y: 29}
+        - {x: 29.5, y: 28}
+    - name: Hedgehog_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 22}
+        - {x: -27.5, y: -2}
+        - {x: -27.5, y: -17}
+        - {x: -19.5, y: -22}
+        - {x: 27.5, y: -22}
+        - {x: 27.5, y: 22}
+    - name: Hedgehog_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 128
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 22}
+        - {x: -20.5, y: 22}
+        - {x: -27.5, y: 17}
+        - {x: -27.5, y: -22}
+        - {x: 16.5, y: -22}
+        - {x: 27.5, y: -16}
+        - {x: 27.5, y: -1}
+        - {x: 26.5, y: 6}
+    - name: Hedgehog_29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 127
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21}
+        - {x: -26.5, y: 12}
+        - {x: -26.5, y: -18}
+        - {x: -24.5, y: -20}
+        - {x: -18.5, y: -21}
+        - {x: 22.5, y: -21}
+        - {x: 30.5, y: -19}
+        - {x: 30.5, y: 12}
+        - {x: 25.5, y: 21}
+      - - {x: 28.5, y: -21}
+        - {x: 28.5, y: -19}
+        - {x: 25.5, y: -18}
+        - {x: 23.5, y: -21}
+    - name: Hedgehog_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 22.5}
+        - {x: -10.5, y: 22.5}
+        - {x: -15.5, y: 21.5}
+        - {x: -27.5, y: -1.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -12.5, y: -22.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 23.5, y: 20.5}
+    - name: Hedgehog_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 22.5}
+        - {x: -20.5, y: 22.5}
+        - {x: -27.5, y: 17.5}
+        - {x: -27.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 27.5, y: -18.5}
+        - {x: 27.5, y: 3.5}
+        - {x: 26.5, y: 6.5}
+    - name: Hedgehog_32
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 21}
+        - {x: 18.5, y: 22}
+        - {x: -5.5, y: 22}
+        - {x: -15.5, y: 19}
+        - {x: -26.5, y: 3}
+        - {x: -26.5, y: -21}
+        - {x: -16.5, y: -22}
+        - {x: 26.5, y: -22}
+        - {x: 26.5, y: 11}
+    - name: Hedgehog_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: -20}
+        - {x: -25.5, y: -22}
+        - {x: 26.5, y: -22}
+        - {x: 26.5, y: 6}
+        - {x: 21.5, y: 22}
+        - {x: -13.5, y: 22}
+        - {x: -26.5, y: 12}
+    - name: Hedgehog_34
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 383
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -23}
+        - {x: -22, y: -21}
+        - {x: -25, y: -20}
+        - {x: -27, y: -23}
+      - - {x: -25, y: 23}
+        - {x: -27, y: 21}
+        - {x: -27, y: -23}
+        - {x: 27, y: -23}
+        - {x: 27, y: 9}
+        - {x: 14, y: 23}
+    - name: Hedgehog_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 319
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 32}
+        - {x: -8.5, y: 24}
+        - {x: -28.5, y: 24}
+        - {x: -33.5, y: 23}
+        - {x: -33.5, y: 4}
+        - {x: -26.5, y: -32}
+        - {x: 25.5, y: -32}
+        - {x: 33.5, y: -28}
+        - {x: 33.5, y: 32}
+    - name: Hedgehog_36
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 317
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 11}
+        - {x: 6.5, y: 12}
+        - {x: 7.5, y: 11}
+        - {x: 7.5, y: 24}
+        - {x: 8.5, y: 25}
+        - {x: 8.5, y: 33}
+        - {x: -27.5, y: 33}
+        - {x: -27.5, y: 29}
+        - {x: -21.5, y: 11}
+        - {x: -22.5, y: 5}
+        - {x: -28.5, y: 9}
+        - {x: -30.5, y: 8}
+        - {x: -30.5, y: -27}
+        - {x: -25.5, y: -32}
+        - {x: 22.5, y: -32}
+        - {x: 30.5, y: -30}
+        - {x: 30.5, y: 24}
+        - {x: 25.5, y: 21}
+    - name: Hedgehog_37
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 32}
+        - {x: -31.5, y: -32}
+        - {x: 31.5, y: -32}
+        - {x: 31.5, y: 32}
+      - - {x: -2.5, y: 32}
+        - {x: -1.5, y: 29}
+        - {x: 6.5, y: 29}
+        - {x: 8.5, y: 31}
+        - {x: 8.5, y: 32}
+    - name: Hedgehog_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 128
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 21}
+        - {x: -28.5, y: -21}
+        - {x: 26.5, y: -21}
+        - {x: 28.5, y: -19}
+        - {x: 28.5, y: 8}
+        - {x: 18.5, y: 21}
+    - name: Hedgehog_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 67
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 29.5}
+        - {x: -30.5, y: 27.5}
+        - {x: -30.5, y: -29.5}
+        - {x: 30.5, y: -29.5}
+        - {x: 30.5, y: 25.5}
+        - {x: 14.5, y: 29.5}
+    - name: Hedgehog_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -32}
+        - {x: 31, y: -32}
+        - {x: 31, y: 32}
+        - {x: -13, y: 32}
+        - {x: -31, y: 28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

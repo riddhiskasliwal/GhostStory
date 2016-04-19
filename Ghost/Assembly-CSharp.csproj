@@ -45,7 +45,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Player_Movements.cs" />
+     <Compile Include="Assets\Scripts\BombExplosion.cs" />
+     <Compile Include="Assets\Scripts\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CollectablesCollision.cs" />
+     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\GhostAI.cs" />
+     <Compile Include="Assets\Scripts\GiveDamage.cs" />
+     <Compile Include="Assets\Scripts\Jumper.cs" />
+     <Compile Include="Assets\Scripts\Player_Movements.cs" />
+     <Compile Include="Assets\Scripts\SpawnEnemiesLayer3.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
