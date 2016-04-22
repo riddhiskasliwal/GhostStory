@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: a65ee3a1eefb97b49a4023ccd85a4a51
+timeCreated: 1460399485
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tile_dungeon_0
+    21300002: Tile_dungeon_1
+    21300004: Tile_dungeon_2
+    21300006: Tile_dungeon_3
+    21300008: Tile_dungeon_4
+    21300010: Tile_dungeon_5
+    21300012: Tile_dungeon_6
+    21300014: Tile_dungeon_7
+    21300016: Tile_dungeon_8
+    21300018: Tile_dungeon_9
+    21300020: Tile_dungeon_10
+    21300022: Tile_dungeon_11
+    21300024: Tile_dungeon_12
+    21300026: Tile_dungeon_13
+    21300028: Tile_dungeon_14
+    21300030: Tile_dungeon_15
+    21300032: Tile_dungeon_16
+    21300034: Tile_dungeon_17
+    21300036: Tile_dungeon_18
+    21300038: Tile_dungeon_19
+    21300040: Tile_dungeon_20
+    21300042: Tile_dungeon_21
+    21300044: Tile_dungeon_22
+    21300046: Tile_dungeon_23
+    21300048: Tile_dungeon_24
+    21300050: Tile_dungeon_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tile_dungeon_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1791
+        width: 574
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -287, y: 128.5}
+        - {x: -287, y: -128.5}
+        - {x: 287, y: -128.5}
+        - {x: 287, y: 128.5}
+    - name: Tile_dungeon_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1918
+        width: 124
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 33}
+        - {x: -62, y: -33}
+        - {x: 62, y: -33}
+        - {x: 62, y: 33}
+    - name: Tile_dungeon_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1406
+        width: 190
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95, y: 98}
+        - {x: -95, y: -98}
+        - {x: 95, y: -98}
+        - {x: 95, y: 98}
+    - name: Tile_dungeon_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1406
+        width: 190
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95, y: 98}
+        - {x: -95, y: -98}
+        - {x: 95, y: -98}
+        - {x: 95, y: 98}
+    - name: Tile_dungeon_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1406
+        width: 130
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 98}
+        - {x: -65, y: -98}
+        - {x: 65, y: -98}
+        - {x: 65, y: 98}
+    - name: Tile_dungeon_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1282
+        width: 192
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 61}
+        - {x: -96, y: -61}
+        - {x: 96, y: -61}
+        - {x: 96, y: 61}
+    - name: Tile_dungeon_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1279
+        width: 194
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97, y: 62.5}
+        - {x: -97, y: -62.5}
+        - {x: 97, y: -62.5}
+        - {x: 97, y: 62.5}
+    - name: Tile_dungeon_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1280
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -31.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 31.5, y: 31.5}
+    - name: Tile_dungeon_8
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1025
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 27}
+        - {x: -7.5, y: 27}
+        - {x: -12.5, y: 18}
+        - {x: -13.5, y: 13}
+        - {x: -6.5, y: 7}
+        - {x: -11.5, y: 11}
+        - {x: -15.5, y: 13}
+        - {x: -20.5, y: 15}
+        - {x: -29.5, y: 13}
+        - {x: -29.5, y: -17}
+        - {x: -21.5, y: -44}
+        - {x: 19.5, y: -44}
+        - {x: 27.5, y: -37}
+        - {x: 32.5, y: -14}
+        - {x: 32.5, y: 21}
+    - name: Tile_dungeon_9
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1027
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 39}
+        - {x: -30, y: 37}
+        - {x: -30, y: -44}
+        - {x: 27, y: -44}
+        - {x: 29, y: -33}
+        - {x: 29, y: 32}
+        - {x: 25, y: 39}
+    - name: Tile_dungeon_10
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1029
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 36}
+        - {x: -31.5, y: 32}
+        - {x: -31.5, y: -27}
+        - {x: -26.5, y: -44}
+        - {x: 28.5, y: -44}
+        - {x: 29.5, y: -42}
+        - {x: 29.5, y: 33}
+        - {x: 27.5, y: 36}
+    - name: Tile_dungeon_11
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1023
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 42}
+        - {x: -29.5, y: 27}
+        - {x: -29.5, y: -8}
+        - {x: -17.5, y: -8}
+        - {x: -23.5, y: -18}
+        - {x: -28.5, y: -35}
+        - {x: -20.5, y: -46}
+        - {x: 20.5, y: -46}
+        - {x: 29.5, y: -43}
+        - {x: 29.5, y: 35}
+        - {x: 14.5, y: 42}
+    - name: Tile_dungeon_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 129
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 122.5}
+        - {x: -64.5, y: -122.5}
+        - {x: 64.5, y: -122.5}
+        - {x: 64.5, y: 122.5}
+    - name: Tile_dungeon_13
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1791
+        width: 62
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 64}
+        - {x: -31, y: -64}
+        - {x: 31, y: -64}
+        - {x: 31, y: 64}
+    - name: Tile_dungeon_14
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1921
+        width: 74
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 63.5}
+        - {x: -37, y: -63.5}
+        - {x: 37, y: -63.5}
+        - {x: 37, y: 63.5}
+    - name: Tile_dungeon_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1343
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 30.5}
+        - {x: -30.5, y: -30.5}
+        - {x: 30.5, y: -30.5}
+        - {x: 30.5, y: 30.5}
+    - name: Tile_dungeon_16
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1025
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 48}
+        - {x: -28, y: -48}
+        - {x: 28, y: -48}
+        - {x: 28, y: 46}
+        - {x: 23, y: 48}
+    - name: Tile_dungeon_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1020
+        width: 52
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 56.5}
+        - {x: -10, y: 56.5}
+        - {x: -26, y: 41.5}
+        - {x: -26, y: 26.5}
+        - {x: -20, y: 13.5}
+        - {x: -26, y: -18.5}
+        - {x: -26, y: -54.5}
+        - {x: 26, y: -54.5}
+        - {x: 26, y: 35.5}
+        - {x: 17, y: 53.5}
+    - name: Tile_dungeon_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1023
+        width: 58
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 31.5}
+        - {x: 17, y: 51.5}
+        - {x: 6, y: 55.5}
+        - {x: -11, y: 55.5}
+        - {x: -29, y: 34.5}
+        - {x: -29, y: -55.5}
+        - {x: 22, y: -55.5}
+        - {x: 29, y: -49.5}
+        - {x: 29, y: -23.5}
+    - name: Tile_dungeon_19
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1025
+        width: 57
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 55.5}
+        - {x: -28.5, y: -55.5}
+        - {x: 28.5, y: -55.5}
+        - {x: 28.5, y: 25.5}
+        - {x: 20.5, y: 55.5}
+    - name: Tile_dungeon_20
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1346
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 30}
+        - {x: -32.5, y: -30}
+        - {x: 32.5, y: -30}
+        - {x: 32.5, y: 30}
+    - name: Tile_dungeon_21
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1281
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 32}
+        - {x: -31, y: -32}
+        - {x: 31, y: -32}
+        - {x: 31, y: 32}
+    - name: Tile_dungeon_22
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 695
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 67.5}
+        - {x: -72, y: 52.5}
+        - {x: -44, y: 9.5}
+        - {x: -71, y: 5.5}
+        - {x: -72, y: 2.5}
+        - {x: -72, y: -13.5}
+        - {x: -37, y: -64.5}
+        - {x: 33, y: -64.5}
+        - {x: 66, y: -35.5}
+        - {x: 66, y: 67.5}
+    - name: Tile_dungeon_23
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1598
+        width: 125
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 96.5}
+        - {x: -62.5, y: -96.5}
+        - {x: 62.5, y: -96.5}
+        - {x: 62.5, y: 96.5}
+    - name: Tile_dungeon_24
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1788
+        width: 60
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 66.5}
+        - {x: -30, y: -66.5}
+        - {x: 30, y: -66.5}
+        - {x: 30, y: 66.5}
+    - name: Tile_dungeon_25
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1673
+        width: 250
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -125, y: 54.5}
+        - {x: -125, y: -54.5}
+        - {x: 125, y: -54.5}
+        - {x: 125, y: 54.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

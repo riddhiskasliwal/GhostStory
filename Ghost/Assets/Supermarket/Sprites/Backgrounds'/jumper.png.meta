@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 3063170add547bd4eb1a9a22e9ec2957
+timeCreated: 1461046942
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jumper_0
+    21300002: jumper_1
+    21300004: jumper_2
+    21300006: jumper_3
+    21300008: jumper_4
+    21300010: jumper_5
+    21300012: jumper_6
+    21300014: jumper_7
+    21300016: jumper_8
+    21300018: jumper_9
+    21300020: jumper_10
+    21300022: jumper_11
+    21300024: jumper_12
+    21300026: jumper_13
+    21300028: jumper_14
+    21300030: jumper_15
+    21300032: jumper_16
+    21300034: jumper_17
+    21300036: jumper_18
+    21300038: jumper_19
+    21300040: jumper_20
+    21300042: jumper_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: jumper_0
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1905
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: jumper_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1898
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 35}
+        - {x: -29, y: 35}
+        - {x: -29, y: -23}
+        - {x: -15, y: -35}
+        - {x: 24, y: -35}
+        - {x: 29, y: -34}
+        - {x: 29, y: 32}
+    - name: jumper_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 500
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 250, y: -14}
+        - {x: 250, y: 17}
+        - {x: 236, y: 22}
+        - {x: -240, y: 22}
+        - {x: -250, y: 19}
+        - {x: -250, y: -15}
+        - {x: -229, y: -22}
+        - {x: 237, y: -22}
+    - name: jumper_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1699
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 45}
+        - {x: -34, y: -24}
+        - {x: -32, y: -32}
+        - {x: -8, y: -45}
+        - {x: 34, y: -45}
+        - {x: 34, y: 44}
+        - {x: 32, y: 45}
+    - name: jumper_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1708
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 48.5}
+        - {x: -36.5, y: -25.5}
+        - {x: 2.5, y: -48.5}
+        - {x: 35.5, y: -48.5}
+        - {x: 36.5, y: -46.5}
+        - {x: 36.5, y: 46.5}
+        - {x: 19.5, y: 48.5}
+    - name: jumper_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1706
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 56}
+        - {x: -39, y: 55}
+        - {x: -39, y: -34}
+        - {x: -24, y: -56}
+        - {x: 29, y: -56}
+        - {x: 39, y: -51}
+        - {x: 39, y: 56}
+    - name: jumper_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1713
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 56.5}
+        - {x: -37, y: 56.5}
+        - {x: -41, y: 50.5}
+        - {x: -41, y: -43.5}
+        - {x: -22, y: -56.5}
+        - {x: 14, y: -56.5}
+        - {x: 37, y: -42.5}
+        - {x: 41, y: -16.5}
+        - {x: 41, y: 50.5}
+    - name: jumper_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1702
+        width: 87
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 64}
+        - {x: -43.5, y: 64}
+        - {x: -43.5, y: -40}
+        - {x: -26.5, y: -64}
+        - {x: 28.5, y: -64}
+        - {x: 37.5, y: -58}
+        - {x: 43.5, y: -41}
+        - {x: 43.5, y: 62}
+    - name: jumper_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 500
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 250, y: -19}
+        - {x: 250, y: 12}
+        - {x: 233, y: 18}
+        - {x: -236, y: 18}
+        - {x: -250, y: 14}
+        - {x: -250, y: -20}
+        - {x: -229, y: -27}
+        - {x: 237, y: -27}
+      - - {x: -200, y: 27}
+        - {x: -200, y: 22}
+        - {x: -173, y: 22}
+        - {x: -172, y: 26}
+        - {x: -172, y: 27}
+      - - {x: 107, y: 27}
+        - {x: 107, y: 25}
+        - {x: 110, y: 22}
+        - {x: 111, y: 22}
+        - {x: 114, y: 25}
+        - {x: 114, y: 27}
+    - name: jumper_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1525
+        width: 90
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 54}
+        - {x: -45, y: 53}
+        - {x: -45, y: -25}
+        - {x: -40, y: -54}
+        - {x: 40, y: -54}
+        - {x: 45, y: -41}
+        - {x: 45, y: 54}
+    - name: jumper_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1546
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 44}
+        - {x: -45, y: -39}
+        - {x: -44, y: -44}
+        - {x: 26, y: -44}
+        - {x: 37, y: -41}
+        - {x: 45, y: -26}
+        - {x: 45, y: 44}
+    - name: jumper_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1562
+        width: 89
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 35}
+        - {x: -44.5, y: 33}
+        - {x: -44.5, y: -35}
+        - {x: 43.5, y: -35}
+        - {x: 44.5, y: -25}
+        - {x: 44.5, y: 35}
+    - name: jumper_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1558
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: -34}
+        - {x: -42.5, y: -37}
+        - {x: 22.5, y: -37}
+        - {x: 43.5, y: -18}
+        - {x: 43.5, y: 37}
+        - {x: -43.5, y: 37}
+    - name: jumper_13
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1542
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 44.5}
+        - {x: -42.5, y: -34.5}
+        - {x: -40.5, y: -41.5}
+        - {x: -32.5, y: -44.5}
+        - {x: 37.5, y: -44.5}
+        - {x: 42.5, y: -27.5}
+        - {x: 42.5, y: 44.5}
+    - name: jumper_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 500
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 250, y: -14}
+        - {x: 250, y: 17}
+        - {x: 236, y: 22}
+        - {x: -240, y: 22}
+        - {x: -250, y: 19}
+        - {x: -250, y: -15}
+        - {x: -229, y: -22}
+        - {x: 237, y: -22}
+    - name: jumper_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 500
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 169, y: 71}
+        - {x: 152, y: 18}
+        - {x: 138, y: 89}
+        - {x: 118, y: 90}
+        - {x: 98, y: 90}
+        - {x: 67, y: 79}
+        - {x: 51, y: 90}
+        - {x: -30, y: 90}
+        - {x: -46, y: 87}
+        - {x: -45, y: 0}
+        - {x: -40, y: -43}
+        - {x: -207, y: -37}
+        - {x: -250, y: -49}
+        - {x: -250, y: -83}
+        - {x: -237, y: -90}
+        - {x: 250, y: -90}
+        - {x: 250, y: 64}
+        - {x: 225, y: 81}
+      - - {x: -135, y: 90}
+        - {x: -137, y: 72}
+        - {x: -137, y: -10}
+        - {x: -132, y: -38}
+        - {x: -120, y: -42}
+        - {x: -65, y: -42}
+        - {x: -53, y: -21}
+        - {x: -53, y: 90}
+      - - {x: -237, y: 90}
+        - {x: -238, y: 87}
+        - {x: -238, y: -15}
+        - {x: -220, y: -18}
+        - {x: -163, y: -18}
+        - {x: -152, y: 13}
+        - {x: -152, y: 90}
+    - name: jumper_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1322
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 55}
+        - {x: -41, y: -55}
+        - {x: 34, y: -55}
+        - {x: 41, y: -40}
+        - {x: 41, y: 55}
+    - name: jumper_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1298
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 67}
+        - {x: -40, y: 64}
+        - {x: -40, y: -63}
+        - {x: -38, y: -67}
+        - {x: 33, y: -67}
+        - {x: 40, y: -65}
+        - {x: 40, y: 64}
+        - {x: 32, y: 67}
+    - name: jumper_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 101
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 73}
+        - {x: -50.5, y: -14}
+        - {x: -50.5, y: -73}
+        - {x: 50.5, y: -73}
+        - {x: 50.5, y: 22}
+        - {x: 40.5, y: 73}
+    - name: jumper_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 98
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 22}
+        - {x: -49, y: 21}
+        - {x: -49, y: -14}
+        - {x: -42, y: -22}
+        - {x: 40, y: -22}
+        - {x: 49, y: -21}
+        - {x: 49, y: 17}
+        - {x: 39, y: 22}
+    - name: jumper_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1049
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 55}
+        - {x: -51, y: -18}
+        - {x: -51, y: -72}
+        - {x: -37, y: -73}
+        - {x: 45, y: -73}
+        - {x: 51, y: -71}
+        - {x: 51, y: -7}
+        - {x: 41, y: 55}
+    - name: jumper_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1053
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 30}
+        - {x: -43, y: -12}
+        - {x: -43, y: -69}
+        - {x: -40, y: -71}
+        - {x: 43, y: -71}
+        - {x: 43, y: 10}
+        - {x: 28, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
