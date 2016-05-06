@@ -23,6 +23,6 @@ public class GhostAI : MonoBehaviour {
 		}
 	}
 	void Shoot(){
-		Instantiate (ghost_weapon, new Vector3(-6.9f, -32.69f, 0f), Quaternion.identity);
+		Instantiate (ghost_weapon, new Vector3(-6.036f, -38.62f, 0f), Quaternion.identity);
 	}
 }

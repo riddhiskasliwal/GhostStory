@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 
@@ -14,6 +15,9 @@ public class Player_Movements : MonoBehaviour {
 	private int bomb_throw;
 	public GameObject bullet;
 	public static int players_dir = 1;
+	public string notReady = "You're not ready to go here yet.";
+	public string beenHere = "You've already been here.";
+	public static string temp;
 	// Use this for initialization
 	void Start () {
 		player = gameObject.GetComponent<Rigidbody2D> ();
@@ -46,8 +50,9 @@ public class Player_Movements : MonoBehaviour {
 		transform.Translate (translation, 0, 0);
 		if (Input.GetKeyDown ("space") && isGrounded) {
 			isGrounded = false;
-			player.AddForce (Vector3.up * jumpForce);
 			StartCoroutine ("grounded");
+			player.AddForce (Vector3.up * jumpForce);
+			isGrounded = true;
 		} 
 		if (Input.GetKeyDown ("b")) {
 			if (bomb_throw == 0 && CollectablesCollision.bomb_picked) {
@@ -58,38 +63,64 @@ public class Player_Movements : MonoBehaviour {
 				Instantiate (bullet, transform.position, Quaternion.identity);
 			}
 		}
+
+		if (Input.GetKeyDown (KeyCode.Return)) {
+			if (hallway.back_hall) {
+				System.Threading.Thread.Sleep (2000);
+				SceneManager.LoadScene ("hallway");
+				hallway.back_hall = false;
+			}
+			if (hallway.bathroom_entry) {
+				hallway.bathroom_entry = false;
+				enter(0, UpperBar.levelComplete, "Janitor");
+			}
+			if (hallway.shop_entry) {
+				hallway.shop_entry = false;
+				enter(1, UpperBar.levelComplete, "corridor");
+			} if (hallway.shop_entrance) {
+				hallway.shop_entrance = false;
+				enter(1, UpperBar.levelComplete, "ShopInstr");
+			} if (hallway.stairs_entry) {
+				hallway.stairs_entry = false;
+				if (UpperBar.levelComplete > 2) {
+					SceneManager.LoadScene("hallway_2");
+				} else {
+					enter(2, UpperBar.levelComplete, "StairsInstr");
+				}
+			}  if (hallway.symbol_entry) {
+				hallway.symbol_entry = false;
+				enter(3, UpperBar.levelComplete, "SymbolInstr");
+			} if (hallway.fountain_entry) {
+				hallway.fountain_entry = false;
+				enter(4, UpperBar.levelComplete, "OutroSlide1");
+			} 
+		}
 	}
 	IEnumerator grounded(){
-		yield return new WaitForSeconds (3/2);
-		isGrounded = true;
+		yield return new WaitForSeconds (20);
 	}
-	// Update is called once per frame
-	/*void Update () {
-		anim.SetFloat ("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
-		anim.SetBool ("Grounded", isGrounded);
-		if (Input.GetAxis ("Horizontal") < -0.1f) {
-			transform.localScale = new Vector3(-1*x, y, 1);
-		}
-		if (Input.GetAxis ("Horizontal") > 0.1f) {
-			transform.localScale = new Vector3(x, y, 1);
-		}
-		if (Mathf.Abs(player.transform.position.y-pos_y) <= 0.2f) {
-			isGrounded = true;
-		}
-	}
-	void FixedUpdate(){
-		float translation = Input.GetAxis("Horizontal") * speed;
-		translation *= Time.deltaTime;
-		transform.Translate (translation, 0, 0);
-		if (Input.GetKeyDown ("space") && isGrounded) {
-			isGrounded = false;
-			transform.Translate (Vector3.up * 100 * 0.018f);
-			StartCoroutine ("Fall");
+
+	void enter(int properLevel, int currentLevel, string nextScene) {
+		print (properLevel + " " + currentLevel + " " + nextScene);
+		if (properLevel == currentLevel) {
+			print ("2");
+			System.Threading.Thread.Sleep (2000);
+			SceneManager.LoadScene (nextScene);
+		} else {
+			if (UpperBar.text != notReady && UpperBar.text != beenHere) {
+				temp = UpperBar.text;
+			}
+			if (currentLevel < properLevel) {
+				UpperBar.text = notReady;
+
+			} else {
+				UpperBar.text = beenHere;
+			}
+			StartCoroutine ("tempMessage");
 		}
 	}
-	IEnumerator Fall(){
-		yield return new WaitForSeconds (3/2);
-		transform.Translate (Vector3.up * -100 * 0.018f);
-		isGrounded = true;
-	}*/
+	IEnumerator tempMessage(){
+		yield return new WaitForSeconds (3);
+		UpperBar.text = temp;
+	}
 }

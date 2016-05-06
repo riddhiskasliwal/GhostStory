@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: ed2be29f9dc0388489b6f48093c3c3b6
+timeCreated: 1461584328
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bottom_0
+    21300002: bottom_1
+    21300004: bottom_2
+    21300006: bottom_3
+    21300008: bottom_4
+    21300010: bottom_5
+    21300012: bottom_6
+    21300014: bottom_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bottom_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 673
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 10.5}
+        - {x: -30, y: -6.5}
+        - {x: -23, y: -19.5}
+        - {x: 25, y: -19.5}
+        - {x: 34, y: -16.5}
+        - {x: 34, y: 10.5}
+      - - {x: -34, y: -6.5}
+        - {x: -34, y: -17.5}
+        - {x: -30, y: -16.5}
+        - {x: -27, y: -15.5}
+        - {x: -27, y: -9.5}
+        - {x: -28, y: -6.5}
+    - name: bottom_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 674
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 16.5}
+        - {x: -30, y: -18.5}
+        - {x: -28, y: -19.5}
+        - {x: 30, y: -19.5}
+        - {x: 30, y: 16.5}
+    - name: bottom_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 674
+        width: 73
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 18.5}
+        - {x: -36.5, y: -18.5}
+        - {x: 36.5, y: -18.5}
+        - {x: 36.5, y: 18.5}
+    - name: bottom_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 670
+        width: 76
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 21.5}
+        - {x: -38, y: 12.5}
+        - {x: -38, y: -21.5}
+        - {x: 38, y: -21.5}
+        - {x: 38, y: 21.5}
+    - name: bottom_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 672
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 20.5}
+        - {x: -36.5, y: 20.5}
+        - {x: -40.5, y: 11.5}
+        - {x: -40.5, y: -20.5}
+        - {x: 40.5, y: -20.5}
+        - {x: 40.5, y: -2.5}
+        - {x: 36.5, y: 19.5}
+    - name: bottom_5
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 673
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 21.5}
+        - {x: -29.5, y: 4.5}
+        - {x: -25.5, y: -2.5}
+        - {x: -21.5, y: -4.5}
+        - {x: -18.5, y: -4.5}
+        - {x: -27.5, y: -5.5}
+        - {x: -31.5, y: -6.5}
+        - {x: -36.5, y: -8.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -34.5, y: -21.5}
+        - {x: 41.5, y: -21.5}
+        - {x: 41.5, y: 21.5}
+    - name: bottom_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 671
+        width: 79
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 22}
+        - {x: -39.5, y: -22}
+        - {x: 38.5, y: -22}
+        - {x: 39.5, y: -21}
+        - {x: 39.5, y: 22}
+    - name: bottom_7
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 671
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -21.5}
+        - {x: 41, y: 10.5}
+        - {x: 38, y: 21.5}
+        - {x: -41, y: 21.5}
+        - {x: -41, y: -21.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

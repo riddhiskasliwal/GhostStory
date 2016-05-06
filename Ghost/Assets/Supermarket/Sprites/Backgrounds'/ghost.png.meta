@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 1802de9f02bed54418072aa80006f7a6
+timeCreated: 1461579521
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ghost_0
+    21300002: ghost_1
+    21300004: ghost_2
+    21300006: ghost_3
+    21300008: ghost_4
+    21300010: ghost_5
+    21300012: ghost_6
+    21300014: ghost_7
+    21300016: ghost_8
+    21300018: ghost_9
+    21300020: ghost_10
+    21300022: ghost_11
+    21300024: ghost_12
+    21300026: ghost_13
+    21300028: ghost_14
+    21300030: ghost_15
+    21300032: ghost_16
+    21300034: ghost_17
+    21300036: ghost_18
+    21300038: ghost_19
+    21300040: ghost_20
+    21300042: ghost_21
+    21300044: ghost_22
+    21300046: ghost_23
+    21300048: ghost_24
+    21300050: ghost_25
+    21300052: ghost_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ghost_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1695
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 46}
+        - {x: -33.5, y: 28}
+        - {x: -33.5, y: -20}
+        - {x: -10.5, y: -48}
+        - {x: 26.5, y: -48}
+        - {x: 33.5, y: -44}
+        - {x: 38.5, y: -22}
+        - {x: 38.5, y: 22}
+        - {x: 31.5, y: 46}
+    - name: ghost_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1706
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 45}
+        - {x: -37.5, y: -22}
+        - {x: -23.5, y: -45}
+        - {x: 36.5, y: -45}
+        - {x: 39.5, y: -33}
+        - {x: 39.5, y: 35}
+        - {x: 36.5, y: 45}
+    - name: ghost_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1712
+        width: 85
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 49.5}
+        - {x: -41.5, y: 40.5}
+        - {x: -41.5, y: -28.5}
+        - {x: -24.5, y: -49.5}
+        - {x: 35.5, y: -49.5}
+        - {x: 40.5, y: -29.5}
+        - {x: 40.5, y: 45.5}
+        - {x: 34.5, y: 49.5}
+    - name: ghost_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1718
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 50}
+        - {x: -41, y: 43}
+        - {x: -41, y: -33}
+        - {x: -32, y: -50}
+        - {x: 36, y: -50}
+        - {x: 42, y: -23}
+        - {x: 42, y: 50}
+    - name: ghost_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1699
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 59}
+        - {x: -49, y: 59}
+        - {x: -49, y: -36}
+        - {x: -45, y: -58}
+        - {x: 12, y: -58}
+        - {x: 34, y: -50}
+        - {x: 42, y: 24}
+        - {x: 42, y: 54}
+    - name: ghost_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1897
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 36.5}
+        - {x: -19.5, y: 36.5}
+        - {x: -25.5, y: 32.5}
+        - {x: -25.5, y: -34.5}
+        - {x: -12.5, y: -36.5}
+        - {x: 28.5, y: -36.5}
+        - {x: 29.5, y: -34.5}
+        - {x: 29.5, y: 27.5}
+        - {x: 26.5, y: 31.5}
+    - name: ghost_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1526
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 53}
+        - {x: -43.5, y: 48}
+        - {x: -43.5, y: -11}
+        - {x: -42.5, y: -14}
+        - {x: -41.5, y: -20}
+        - {x: -33.5, y: -51}
+        - {x: -30.5, y: -56}
+        - {x: 25.5, y: -56}
+        - {x: 43.5, y: -49}
+        - {x: 43.5, y: 52}
+        - {x: 39.5, y: 53}
+    - name: ghost_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1538
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 48}
+        - {x: -45, y: 43}
+        - {x: -45, y: -26}
+        - {x: -31, y: -44}
+        - {x: 37, y: -44}
+        - {x: 45, y: -42}
+        - {x: 45, y: 42}
+        - {x: 35, y: 48}
+    - name: ghost_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1551
+        width: 91
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 40}
+        - {x: -45.5, y: 39}
+        - {x: -45.5, y: -29}
+        - {x: -41.5, y: -31}
+        - {x: 25.5, y: -31}
+        - {x: 45.5, y: -28}
+        - {x: 45.5, y: 40}
+    - name: ghost_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1543
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 43}
+        - {x: -43.5, y: -30}
+        - {x: 42.5, y: -30}
+        - {x: 42.5, y: 43}
+    - name: ghost_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1538
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 45}
+        - {x: -42.5, y: -43}
+        - {x: 29.5, y: -43}
+        - {x: 36.5, y: -32}
+        - {x: 36.5, y: 38}
+        - {x: 34.5, y: 45}
+    - name: ghost_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1306
+        width: 77
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 62.5}
+        - {x: -38.5, y: -48.5}
+        - {x: 34.5, y: -48.5}
+        - {x: 38.5, y: -33.5}
+        - {x: 38.5, y: 62.5}
+    - name: ghost_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1297
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 65}
+        - {x: -43.5, y: -49}
+        - {x: -31.5, y: -65}
+        - {x: 20.5, y: -65}
+        - {x: 40.5, y: -50}
+        - {x: 40.5, y: 65}
+    - name: ghost_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1293
+        width: 89
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 66}
+        - {x: -39.5, y: 65}
+        - {x: -43.5, y: 38}
+        - {x: -43.5, y: -56}
+        - {x: -41.5, y: -66}
+        - {x: 32.5, y: -66}
+        - {x: 36.5, y: -63}
+        - {x: 36.5, y: 60}
+        - {x: 28.5, y: 66}
+    - name: ghost_14
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1299
+        width: 86
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 57.5}
+        - {x: -43, y: 43.5}
+        - {x: -43, y: -57.5}
+        - {x: 34, y: -57.5}
+        - {x: 34, y: 47.5}
+        - {x: 32, y: 57.5}
+    - name: ghost_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1299
+        width: 78
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 55.5}
+        - {x: -37, y: 31.5}
+        - {x: -37, y: -43.5}
+        - {x: -32, y: -57.5}
+        - {x: 34, y: -57.5}
+        - {x: 37, y: -54.5}
+        - {x: 37, y: 34.5}
+        - {x: 34, y: 55.5}
+    - name: ghost_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1097
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 46}
+        - {x: -37, y: -53}
+        - {x: 30, y: -53}
+        - {x: 30, y: 46}
+    - name: ghost_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1094
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 37}
+        - {x: -24, y: 37}
+        - {x: -30, y: 21}
+        - {x: -30, y: -46}
+        - {x: 33, y: -46}
+        - {x: 35, y: -29}
+        - {x: 35, y: 18}
+        - {x: 34, y: 25}
+    - name: ghost_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1093
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 30}
+        - {x: -33.5, y: 25}
+        - {x: -33.5, y: -23}
+        - {x: -29.5, y: -31}
+        - {x: 27.5, y: -31}
+        - {x: 27.5, y: 17}
+        - {x: 24.5, y: 30}
+    - name: ghost_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1094
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 9.5}
+        - {x: -26.5, y: 7.5}
+        - {x: -26.5, y: -23.5}
+        - {x: 26.5, y: -23.5}
+        - {x: 26.5, y: 8.5}
+        - {x: 25.5, y: 9.5}
+    - name: ghost_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ghost_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 114
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 22}
+        - {x: -21.5, y: 21}
+        - {x: -21.5, y: -23}
+        - {x: 18.5, y: -23}
+        - {x: 21.5, y: -21}
+        - {x: 21.5, y: 22}
+    - name: ghost_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 113
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32.5}
+        - {x: -27, y: 25.5}
+        - {x: -27, y: -32.5}
+        - {x: 27, y: -32.5}
+        - {x: 27, y: 30.5}
+        - {x: 25, y: 32.5}
+    - name: ghost_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 113
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 33.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -33.5}
+        - {x: 26, y: -33.5}
+        - {x: 26, y: 18.5}
+        - {x: 18, y: 33.5}
+    - name: ghost_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 112
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 30.5}
+        - {x: -27, y: 19.5}
+        - {x: -27, y: -33.5}
+        - {x: 27, y: -33.5}
+        - {x: 27, y: 24.5}
+        - {x: 16, y: 30.5}
+    - name: ghost_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26.5}
+        - {x: -24, y: 15.5}
+        - {x: -24, y: -25.5}
+        - {x: -23, y: -26.5}
+        - {x: 24, y: -26.5}
+        - {x: 24, y: 21.5}
+        - {x: 12, y: 26.5}
+    - name: ghost_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 54
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 18}
+        - {x: -10.5, y: 18}
+        - {x: -26.5, y: 7}
+        - {x: -26.5, y: -18}
+        - {x: 25.5, y: -18}
+        - {x: 25.5, y: 4}
+        - {x: 22.5, y: 14}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

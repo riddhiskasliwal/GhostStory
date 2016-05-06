@@ -4,6 +4,8 @@ using System.Collections;
 public class GiveDamage : MonoBehaviour {
 
 	// Use this for initialization
+	public int incScore = 10;
+	public int incHealth = 5;
 	private Rigidbody2D rb;
 	private GameObject player;
 	void Start () {
@@ -22,8 +24,11 @@ public class GiveDamage : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D obj ){
 		string name = obj.gameObject.name;
-		if (name == "Player") {
+		if (name == "Player" && gameObject.name == "Static_Enemy(Clone)") {
+			UpperBar.health -= incHealth;
+		} else if(name == "Player"){
 			Destroy (gameObject);
+			UpperBar.health -= incHealth;
 		}
 	}
 	void OnBecameInvisible(){

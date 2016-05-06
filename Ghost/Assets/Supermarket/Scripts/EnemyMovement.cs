@@ -9,8 +9,8 @@ public class EnemyMovement : MonoBehaviour
 	private float secondsForOneLength = 6f;
 	private int direction = 1;
 	private GUISkin gui;
+	public AudioClip DamagePlayer; 
 	public float min = -25f, max=5f;
-	public static string headertext = "Score:  Health: ";
 	private float x, y, z;
 	void Start()
 	{
@@ -30,19 +30,23 @@ public class EnemyMovement : MonoBehaviour
 				Mathf.PingPong(Time.time/secondsForOneLength, 1f)
 			) );
 		if (transform.position.x >= max) {
-			transform.localScale = new Vector3(-1*x, y, z);
+			transform.localScale = new Vector3(x, y, z);
 		}
 		if (transform.position.x <= min) {
-			transform.localScale = new Vector3(x, y, z);
+			transform.localScale = new Vector3(-1*x, y, z);
 		}
 	}
 	void OnTriggerEnter2D(Collider2D obj ){
 		string name = obj.gameObject.name;
 		if (name == "Player") {
-			print ("colliding with the rat");
+			AudioSource.PlayClipAtPoint(DamagePlayer, transform.position);
+			UpperBar.health -= 5;
 		}
 	}
-	void OnGUI(){
-		GUI.Box (new Rect (0, 0, 800, 45), headertext);
-	}
+	/*void OnTriggerExit2D(Collider2D obj ){
+		string name = obj.gameObject.name;
+		if (name == "Player") {
+			UpperBar.health -= 10;
+		}
+	}*/
 }

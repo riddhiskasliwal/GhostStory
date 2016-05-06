@@ -4,6 +4,9 @@ using System.Collections;
 public class BulletScript : MonoBehaviour {
 
 	// Use this for initialization
+	private static int counterG = 10;
+	private static int counterB = 5;
+	public AudioClip DamagePlayer; 
 	private Rigidbody2D rb;
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
@@ -22,7 +25,31 @@ public class BulletScript : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D obj ){
 		string name = obj.gameObject.name;
-		if (name == "Static_Enemy(Clone)" || name == "Ghost" || name == "Weapon(Clone)" || name == "Big_Enemy") {
+		if (name == "Static_Enemy(Clone)" || name == "Weapon(Clone)") {
+			UpperBar.score += 10;
+			AudioSource.PlayClipAtPoint(DamagePlayer, transform.position);
+			Destroy (obj.gameObject);
+			Destroy (gameObject);
+		}
+		if (name == "Ghost") {
+			AudioSource.PlayClipAtPoint(DamagePlayer, transform.position);
+			Destroy (gameObject);
+			counterG--;
+		}
+		if (name == "Big_Enemy") {
+			AudioSource.PlayClipAtPoint(DamagePlayer, transform.position);
+			Destroy (gameObject);
+			counterB--;
+		}
+		if (name == "Ghost" && counterG == 0) {
+			UpperBar.score += 50;
+			UpperBar.health += 10;
+			Destroy (obj.gameObject);
+			Destroy (gameObject);
+		}
+		if (name == "Big_Enemy" && counterB == 0) {
+			UpperBar.score += 50;
+			UpperBar.health += 10;
 			Destroy (obj.gameObject);
 			Destroy (gameObject);
 		}

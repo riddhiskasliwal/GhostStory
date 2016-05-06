@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: b4513c36578414742b6d071aa756f2e2
+timeCreated: 1461073965
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: darkHallway2_0
+    21300002: darkHallway2_1
+    21300004: darkHallway2_2
+    21300006: darkHallway2_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: darkHallway2_0
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 98
+        width: 60
+        height: 382
+      alignment: 9
+      pivot: {x: 0.43977568, y: 0.5030478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.386536, y: 189.83572}
+        - {x: -26.386536, y: -192.16428}
+        - {x: 33.613464, y: -192.16428}
+        - {x: 33.613464, y: 189.83572}
+    - name: darkHallway2_1
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 99
+        width: 54
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 190}
+        - {x: -27, y: -190}
+        - {x: 27, y: -190}
+        - {x: 27, y: 190}
+    - name: darkHallway2_2
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 418
+        width: 128
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 29.5}
+        - {x: -64, y: -29.5}
+        - {x: 64, y: -29.5}
+        - {x: 64, y: 29.5}
+    - name: darkHallway2_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 125
+        width: 216
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 155.5}
+        - {x: -108, y: -155.5}
+        - {x: 108, y: -155.5}
+        - {x: 108, y: 155.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
