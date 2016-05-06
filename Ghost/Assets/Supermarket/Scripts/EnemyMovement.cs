@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+
+//This script is responsible for the movements of the enemy
+
 public class EnemyMovement : MonoBehaviour
 {
 	public Transform farEnd;
@@ -12,6 +15,7 @@ public class EnemyMovement : MonoBehaviour
 	public AudioClip DamagePlayer; 
 	public float min = -25f, max=5f;
 	private float x, y, z;
+	//Initialising
 	void Start()
 	{
 		frometh = transform.position;
@@ -21,7 +25,7 @@ public class EnemyMovement : MonoBehaviour
 		z = transform.localScale.z;
 		anim = gameObject.GetComponent<Animator> ();
 	}
-
+	//Controlling the movements
 	void Update()
 	{
 		anim.SetInteger ("direction", direction);

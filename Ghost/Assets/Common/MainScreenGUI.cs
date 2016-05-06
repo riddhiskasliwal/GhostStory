@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
+//Main Screen GUI to control exit, start, turn music on and off and skip intro
 public class MainScreenGUI : MonoBehaviour {
 
 	// Use this for initialization

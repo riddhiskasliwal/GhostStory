@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//This script is used throught the game. This alows the camera to follow the player. 
 public class CameraFollow : MonoBehaviour {
 
 	public float dampTime = 0.15f;

@@ -9,6 +9,8 @@ public class BombExplosion : MonoBehaviour {
 	private GameObject rat;
 	public AudioClip explosion; 
 	private bool rat_exists = true;
+	
+	//Initialise the scene
 	void Start () {
 		UpperBar.text = "Task: Find the CYM ghost's jewellery";
 		rb = GetComponent<Rigidbody2D> ();
@@ -26,6 +28,7 @@ public class BombExplosion : MonoBehaviour {
 	void Update () {
 
 	}
+	//Control the Explosion of the barrel and the rat 
 	void OnTriggerEnter2D(Collider2D obj ){
 		string name = obj.gameObject.name;
 		if (name == "Barrel") {
@@ -48,6 +51,7 @@ public class BombExplosion : MonoBehaviour {
 			Destroy (obj.gameObject);
 		}
 	}
+	//Destroy the game object
 	void OnBecameInvisible(){
 		Destroy (gameObject);
 	}

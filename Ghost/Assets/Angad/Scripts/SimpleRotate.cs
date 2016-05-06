@@ -12,6 +12,7 @@ public class SimpleRotate : MonoBehaviour {
 	void Update () {
 
 	}
+	//Rotates the pipe pieces in non essential pipes
 
 	void OnMouseDown() {
 		if (rotate.block == 1) {

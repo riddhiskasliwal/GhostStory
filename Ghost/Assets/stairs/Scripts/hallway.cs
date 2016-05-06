@@ -16,6 +16,7 @@ public class hallway : MonoBehaviour {
 
 
 	// Use this for initialization
+	//Displays appropriate hints in the hallway
 	void Start () {
 		if (UpperBar.levelComplete == 0) {
 			UpperBar.next (0);
@@ -36,7 +37,7 @@ public class hallway : MonoBehaviour {
 	
 	}
 
-
+	//Controls Entry and exit for the doorways in the hallway
 	void OnTriggerEnter2D (Collider2D obj) {
 		if (obj.gameObject.name == "Player") {
 			if(gameObject.name == "StairEntry") {

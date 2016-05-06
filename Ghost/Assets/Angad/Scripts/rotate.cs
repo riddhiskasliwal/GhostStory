@@ -6,6 +6,7 @@ public class rotate : MonoBehaviour {
 	public static int a = 0;
 	public static int block=1;
 	// Use this for initialization
+
 	void Start () {
 		if (transform.eulerAngles.z == 0) {
 			a++;
@@ -24,6 +25,7 @@ public class rotate : MonoBehaviour {
 		//if (a == 29)
 			
 	}
+	//Rotates the pipe pieces
 	void OnMouseDown() {
 		if (block == 1) {
 			float p = transform.eulerAngles.z;

@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
+//This script controls the water level in the GhostFlooding mini game
 public class water : MonoBehaviour {
 
 

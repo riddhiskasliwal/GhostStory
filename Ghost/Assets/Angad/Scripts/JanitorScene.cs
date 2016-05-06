@@ -7,6 +7,8 @@ public class JanitorScene : MonoBehaviour {
 	public static int a=0;
 	public int i=0;
 	public AudioClip screamClip;
+	//Initialises the hallway for the Janitor Scene
+	//Handles whether the janiotr is there or not
 	void Start () {
 		var str = gameObject.transform.name;
 		string[]  strArr = str.Split(' ');
@@ -61,7 +63,7 @@ public class JanitorScene : MonoBehaviour {
 		return result;
 	}
 
-
+	//Controls interaction with the janitor 
 	void OnTriggerEnter2D(Collider2D other) {
 
 		if (i == UpperBar.message.Length)

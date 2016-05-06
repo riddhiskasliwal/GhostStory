@@ -14,6 +14,7 @@ public class enemyScriptC : MonoBehaviour {
 		Destroy(gameObject, 3);
 	}
 	
+	//Handles collision between the enemies and the player
 	void OnTriggerEnter2D (Collider2D obj){
 		string name= obj.gameObject.name;
 		if (name == "bullet(Clone)") {

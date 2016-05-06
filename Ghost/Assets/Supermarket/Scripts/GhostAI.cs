@@ -15,6 +15,7 @@ public class GhostAI : MonoBehaviour {
 	void Update () {
 		
 	}
+	//Shooting by the ghost
 	void OnTriggerEnter2D(Collider2D obj){
 		if (CollectablesCollision.can_hit) {
 			InvokeRepeating ("Shoot", delay, speed);
@@ -22,6 +23,7 @@ public class GhostAI : MonoBehaviour {
 			CancelInvoke ("Shoot");
 		}
 	}
+	//
 	void Shoot(){
 		Instantiate (ghost_weapon, new Vector3(-6.036f, -38.62f, 0f), Quaternion.identity);
 	}

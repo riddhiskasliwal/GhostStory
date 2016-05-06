@@ -2,7 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-
+//This script is responsible for the player movements (left right and jump)
 public class Player_Movements : MonoBehaviour {
 
 	public float speed = 10f;

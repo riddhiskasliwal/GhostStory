@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-
+//This file sets the upper bar GUI 
 public class UpperBar : MonoBehaviour {
 
 	GUIStyle gsTest = new GUIStyle();

@@ -8,6 +8,7 @@ public class BulletScript : MonoBehaviour {
 	private static int counterB = 5;
 	public AudioClip DamagePlayer; 
 	private Rigidbody2D rb;
+	//Intialising
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		Vector3 temp = rb.velocity;
@@ -23,6 +24,7 @@ public class BulletScript : MonoBehaviour {
 	void Update () {
 
 	}
+	//Handle the bullets killing Ghost, Big Enemy, and other small enemies 
 	void OnTriggerEnter2D(Collider2D obj ){
 		string name = obj.gameObject.name;
 		if (name == "Static_Enemy(Clone)" || name == "Weapon(Clone)") {
@@ -54,6 +56,7 @@ public class BulletScript : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
+	//Destroy the corresponding Game Object
 	void OnBecameInvisible(){
 		Destroy (gameObject);
 	}

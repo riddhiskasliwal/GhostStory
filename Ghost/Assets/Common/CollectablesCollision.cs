@@ -20,6 +20,7 @@ public class CollectablesCollision : MonoBehaviour {
 	void Update () {
 		
 	}
+	//Handles collecting objects in Park n Shop
 	void OnTriggerEnter2D(Collider2D obj ){
 		string other = obj.gameObject.name;
 		string collectable = gameObject.name;
